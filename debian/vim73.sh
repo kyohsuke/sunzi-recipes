@@ -9,8 +9,11 @@ else
     echo "downloading vim-7.3 --- cached"
   else
     echo "downloading vim-7.3"
-    curl -s -O ftp://ftp.vim.org/pub/vim/unix/vim-7.3.tar.bz2 && tar jxf vim-7.3.tar.bz2
+    curl -s -O ftp://ftp.vim.org/pub/vim/unix/vim-7.3.tar.bz2
   fi
+
+  # extract file
+  tar jxf vim-7.3.tar.bz2
 
   # download pathces
   echo "downloading patches"
