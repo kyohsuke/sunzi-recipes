@@ -33,7 +33,7 @@ else
   pushd vim73
   cat `seq -f "patches/7.3.%03g" $1` | patch -p0
   echo "building"
-  ./configure --enable-multibyte --disable-netbeans --disable-gui --disable-gtktest --disable-acl --disable-gpm --disable-xim --without-x && make && make test && make install
+  ./configure --enable-multibyte --disable-netbeans --disable-gui --disable-gtktest --disable-acl --disable-gpm --disable-xim --without-x && make && make install
   popd
 fi
 popd
