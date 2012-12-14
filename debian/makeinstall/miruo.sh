@@ -10,6 +10,6 @@ else
   tar xvzf miruo-0.9.3.tar.gz
   cd miruo-0.9.3
   ./configure && make && make install
-  cd ../,,/
+  cd ../../
   rm -rf ./miruo_build_temp
 fi
