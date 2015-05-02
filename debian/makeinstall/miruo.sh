@@ -1,7 +1,7 @@
 # miruo
 
 if [ -f /usr/local/sbin/miruo ]; then
-  echo 'mirul already installed'
+  echo 'miruo already installed'
 else
   mkdir miruo_build_temp
   cd miruo_build_temp
